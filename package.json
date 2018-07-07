@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-smart-notif-panel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom notify panel component using react-native-interactable library",
   "main": "index.js",
   "repository": {

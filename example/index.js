@@ -24,11 +24,13 @@ class Example extends PureComponent {
 
         <SmartNotifPanel
           // maxWidthOrHeight={600}
+          minWidthOrHeight={80}
+          backgroundColor='#182e43f0'
           direction={this.state.direction}
         >
           <View style={{ justifyContent: 'center', alignItems: 'center' }}>
             <Text style={{ fontSize: 18, color: '#ffffff80', marginBottom: 10, alignItems: 'center' }}>
-              Hello every body
+              Notify panel
             </Text>
           </View>
         </SmartNotifPanel>
